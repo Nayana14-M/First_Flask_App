@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %} login {% endblock %}
+
+{% block content %}
+ <h3>Welcome {{username}}</h3>
+ <form action="/logout" method="">
+    <button type="submit">Logout</button>
+ </form>
+{% endblock %}
